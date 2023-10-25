@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "/Users/matthewsimon/Documents/GitHub/cooksite/cooksite/tailwind.config.ts",
+    "css": "/Users/matthewsimon/Documents/GitHub/cooksite/cooksite/src/app/globals.css",
+    "baseColor": "slate",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  }
+}
