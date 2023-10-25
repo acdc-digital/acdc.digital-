@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'; 
 
 interface StepProps {
     title: string;
@@ -18,10 +19,11 @@ const Step: React.FC<StepProps> = ({ title, content, listItems, iconSrc }) => (
         cursor: 'pointer',
     }}>
         <div style={{ marginBottom: '1rem' }}>
-            <img 
+            <Image 
                 src={iconSrc} 
                 alt={`Icon for ${title}`} 
-                style={{ width: '90px', height: '90px' }}
+                width={90} 
+                height={90}
             />
         </div>
         <h2 style={{ fontSize: '1.5rem', color: '#3E28DE', fontWeight: 'bold', marginBottom: '1rem' }}>{title}</h2>

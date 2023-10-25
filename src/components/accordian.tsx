@@ -1,6 +1,7 @@
 // Your existing imports
 'use client'
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 interface AccordionItemProps {
   title: string;
@@ -90,11 +91,13 @@ export default function App() {
           </Accordion>
         </div>
         <div className="relative h-[550px] w-[750px] mt-10 rounded-lg shadow-lg">
-  <img
-    src="/cook-sample.png"  // Make sure this path is correct
-    alt="Your SVG Description"
-    className="h-full w-full object-cover rounded-lg"
-  />
+        <Image
+          src="/cook-sample.png"  // Make sure this path is correct
+          alt="Your SVG Description"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+            />
   <div className="text-black text-sm mt-4 mx-auto max-w-[750px] text-center">
     Preview image of Solomon-Mini; Sign-up to Chat with your Documents now.
   </div>

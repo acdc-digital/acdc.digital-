@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 interface Feature {
   title: string;
@@ -69,7 +70,8 @@ const FeatureHighlight: React.FC = () => {
               onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
               onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
             >
-              <img src={feature.imgSrc} alt={feature.title} style={{ width: '90%', borderRadius: '10px' }} />
+              <Image src={feature.imgSrc} alt={feature.title} width={400} height={300} style={{ borderRadius: '10px' }} />
+
               <h3 style={{ fontSize: '1.1rem', margin: '12px 0', color: '#3E28DE' }}>{feature.title.split(":")[0]}</h3>
               <p style={{ fontSize: '0.85em', color: '#555' }}>{feature.description}</p>
             </div>
@@ -88,7 +90,9 @@ const FeatureHighlight: React.FC = () => {
           borderRadius: '10px'
         }}>
           <h3 style={{ fontSize: '1.35em', margin: '9px 0', color: '#3E28DE' }}>{selectedFeature.title}</h3>
-          <img src={selectedFeature.imgSrc} alt={selectedFeature.title} style={{ width: '45%', borderRadius: '10px' }} />
+          
+          <Image src={selectedFeature.imgSrc} alt={selectedFeature.title} width={400} height={300} style={{ borderRadius: '10px' }} />
+
           <p style={{ fontSize: '0.9em', color: '#555', marginTop: '18px' }}>{selectedFeature.description}</p>
         </div>
       )}
