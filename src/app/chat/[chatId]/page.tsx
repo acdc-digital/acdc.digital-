@@ -10,7 +10,8 @@ import React from "react";
 
 type Props = {
   params: {
-    chatId: string;
+  chatId: string;
+  isPro?: boolean, 
   };
 };
 
