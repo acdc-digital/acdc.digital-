@@ -77,7 +77,7 @@ const FiveStepProcess: React.FC = () => {
               </div>
               <div className="text-md text-[#444] pb-10 text-left ml-20 pl-12 max-w-[1400px]">
                   Transform your business one step at a time: <br></br>1. Lets meet to discuss if were a good fit for your company.<br></br> 2. If we are, we&apos;ll provide a full report at no-charge outlining all the ways we can inject A.I into your business. Your report includes an overview of your current digital implementations, Good/ Better/ Best cost scenarios for improvement, and Return-on-Investment analysis.
-                  <br></br> 3. If approved, we&apos;ll begin building your application as defined in your report.<br></br> 4. Next, we&apos;ll have a technician install our models on your computers for you, so that you can get started using the new technology without the learning curve.<br></br> 5. Your updates are free for life, and we'll provide quarterly diagnostics to ensure everything is working as expected. 
+                  <br></br> 3. If approved, we&apos;ll begin building your application as defined in your report.<br></br> 4. Next, we&apos;ll have a technician install our models on your computers for you, so that you can get started using the new technology without the learning curve.<br></br> 5. Your updates are free for life, and we&apos;ll provide quarterly diagnostics to ensure everything is working as expected. 
               </div>
               <div style={{
                   background: '#F8F9FF',

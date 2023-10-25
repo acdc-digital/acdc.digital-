@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           </div>
           <div style={{ borderTop: '1px solid #fff', paddingTop: '1rem' }}>
            { /* <button style={{ marginRight: '1rem' }}>Terms</button> */ }
-            <button>Thanks for your patience as we update our terms & privacy.</button> 
+            <button>Terms & Privacy</button> 
           </div>
         </div>
 
