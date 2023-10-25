@@ -29,7 +29,7 @@ const ChatPage = async ({ params: { chatId } }: Props) => {
   }
 
   const currentChat = _chats.find((chat) => chat.id === parseInt(chatId));
-  // const isPro = await checkSubscription();
+  const isPro? = await checkSubscription();
 
   return (
     <div className="flex flex-col max-h-screen overflow-scroll bg-[#323232]">
