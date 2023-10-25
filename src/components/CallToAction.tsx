@@ -1,10 +1,10 @@
 import React from 'react';
 
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
   outerCta: {
     display: 'flex',
     justifyContent: 'flex-start',
-    flexDirection: 'column', // Added flexDirection
+    flexDirection: 'column',
     padding: '0 20px',
     backgroundColor: '#E9E9E5',
   },
