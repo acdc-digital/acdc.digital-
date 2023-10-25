@@ -3,7 +3,6 @@ import ChatSideBar from "@/components/ChatSideBar";
 import PDFViewer from "@/components/PDFViewer";
 import { db } from "@/lib/db";
 import { chats } from "@/lib/db/schema";
-// import { checkSubscription } from "@/lib/subscription";
 import { auth, authMiddleware} from "@clerk/nextjs";
 import { eq } from "drizzle-orm";
 import { redirect } from "next/navigation";
@@ -29,7 +28,6 @@ const ChatPage = async ({ params: { chatId } }: Props) => {
   }
 
   const currentChat = _chats.find((chat) => chat.id === parseInt(chatId));
-  const isPro? = await checkSubscription();
 
   return (
     <div className="flex flex-col max-h-screen overflow-scroll bg-[#323232]">
