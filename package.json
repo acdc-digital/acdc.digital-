@@ -54,6 +54,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@types/md5": "^2.3.4",
     "axios": "^1.5.1",
     "react-dropzone": "^14.2.3"
   }
