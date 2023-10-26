@@ -18,7 +18,17 @@ import {
 	userId: varchar("user_id", { length: 256 }).notNull(),
 	fileKey: text("file_key").notNull(),
   });
-  
+ 
+  // Add this part to define the DrizzleChat type
+ export type DrizzleChat = {
+	id: number;
+	pdfName: string;
+	pdfUrl: string;
+	createdAt: Date;
+	userId: string;
+	fileKey: string;
+};
+
   export const messages = pgTable("messages", {
 	id: serial("id").primaryKey(),
 	chatId: integer("chat_id")
