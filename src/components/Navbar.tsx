@@ -72,8 +72,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Custom Styles */}
-      <style tsx>{`
+            {/* Custom Styles */}
+            <style jsx>{`
         .custom-hover:hover::after {
           content: "";
           display: block;
@@ -106,6 +106,7 @@ const Navbar = () => {
           color: white;
         }        
       `}</style>
+
     </div>
   );
 };

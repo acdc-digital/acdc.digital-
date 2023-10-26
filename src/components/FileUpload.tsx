@@ -6,7 +6,7 @@ import React from "react";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
 import { toast } from "react-hot-toast";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 // https://github.com/aws/aws-sdk-js-v3/issues/4126ad
 const FileUpload = () => {
