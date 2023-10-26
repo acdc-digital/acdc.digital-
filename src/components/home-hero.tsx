@@ -6,7 +6,7 @@ import Image from 'next/image';
 const styles = {
   outerHero: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'row' as 'row',
     alignItems: 'flex-start',
     minHeight: '20vh',
     width: '100%',
@@ -17,7 +17,7 @@ const styles = {
   },
   heroContent: {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column' as 'column',
     alignItems: 'flex-start',
     marginLeft: '20px',
     marginRight: '6rem',
