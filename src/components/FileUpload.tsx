@@ -28,6 +28,9 @@ const FileUpload = () => {
     },
   });
 
+  // Log the result for inspection
+  console.log("Mutation result:", mutationResult);
+
   const { getRootProps, getInputProps } = useDropzone({
     accept: { "application/pdf": [".pdf"] },
     maxFiles: 1,
