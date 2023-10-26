@@ -1,4 +1,3 @@
-// Your existing imports
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -9,6 +8,10 @@ interface AccordionItemProps {
   content: string;
   isFirst?: boolean;
   isLast?: boolean;
+}
+
+interface AccordionProps {
+  children: React.ReactNode;
 }
 
 const AccordionItem: React.FC<AccordionItemProps> = ({ title, subtitle, content, isFirst, isLast }) => {
@@ -23,7 +26,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, subtitle, content,
       >
         <div className="flex justify-between">
           <div>
-            <h3 className="text-lg font-bold" style={{color: "#3E28DE", fontWeight: 'bold'}}>{title}</h3>
+            <h3 className="text-lg font-bold" style={{ color: "#3E28DE", fontWeight: 'bold' }}>{title}</h3>
             <p className="text-sm text-gray-500">{subtitle}</p>
           </div>
           <div className="text-black">
@@ -36,7 +39,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, subtitle, content,
   );
 };
 
-const Accordion: React.FC = ({ children }) => {
+const Accordion: React.FC<AccordionProps> = ({ children }) => {
   return <div className="mt-10 mr-10 pr-5 pl-5 pt-5 pb-10 w-3/5 mx-auto shadow-lg rounded-lg bg-white">
     {children}
   </div>;
