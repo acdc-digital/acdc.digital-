@@ -6,7 +6,7 @@ import React from "react";
 import { useDropzone } from "react-dropzone";
 import axios from "axios";
 import { toast } from "react-hot-toast";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 
 // https://github.com/aws/aws-sdk-js-v3/issues/4126ad
 const FileUpload = () => {
@@ -27,9 +27,6 @@ const FileUpload = () => {
       return response.data;
     },
   });
-
-  // Log the result for inspection
-  console.log("Mutation result:", mutationResult);
 
   const { getRootProps, getInputProps } = useDropzone({
     accept: { "application/pdf": [".pdf"] },
