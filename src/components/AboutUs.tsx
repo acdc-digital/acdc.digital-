@@ -13,7 +13,7 @@ const AboutUs: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',  // Aligned items to the left
-        backgroundColor: '#F8F9FF',
+        backgroundColor: '#999A9E',
         padding: '2rem',
         marginLeft: '8rem',
         marginRight: '10rem',
@@ -51,8 +51,8 @@ const AboutUs: React.FC = () => {
               marginBottom: '2rem',
               padding: '1rem',
               borderRadius: '0.5rem',
-              boxShadow: index % 2 === 0 ? '0 2px 10px rgba(0, 0, 0, 0.1)' : 'none',
-              background: index % 2 === 0 ? 'white' : 'transparent',
+              boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',  // All sections get the box shadow
+              background: 'white',  // All sections have a white background
             }}>
               <h3 style={{
                 fontSize: '1.8rem',

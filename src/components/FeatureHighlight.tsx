@@ -35,8 +35,15 @@ const FeatureHighlight: React.FC = () => {
   const [selectedFeature, setSelectedFeature] = useState<Feature | null>(null);
 
   return (
-    <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-      <h2 style={{ fontSize: '2rem', textAlign: 'left', margin: '20px 0', color: '#3E28DE', marginLeft: '8rem', marginTop: '4rem' }}>Discover Our Advanced Suite of Business Solutions</h2>
+    <section style={{ 
+        display: 'flex', 
+        flexDirection: 'column', 
+        alignItems: 'flex-start'
+        }}>
+          
+      <h2 style={{ fontSize: '2rem', textAlign: 'left', margin: '20px 0', color: '#3E28DE', marginLeft: '8rem', marginTop: '4rem' }}>
+        Discover Our Advanced Suite of Business Solutions
+      </h2>
       <div className="text-md text-[#444] pb-6 text-left ml-20 mr-20 pl-12 max-w-[1400px]">
         <div className="h3-style">
           Unleash the potential of AI within your operations. Including website design, re-branding, email inbox organization, sentiment analysis, customer chatbots, and more. From startups to enterprises, we empower businesses of all sizes by integrating advanced cyber security, streamlining recruitment, and financial forecasting. Currently, 73% of businesses are utilizing chatbots to enhance customer communications. Notably, 92% of businesses have witnessed measurable outcomes from leveraging AI for business operations. 
@@ -50,8 +57,9 @@ const FeatureHighlight: React.FC = () => {
         boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
         borderRadius: '0.6rem',
         margin: '0 8rem',
-        background: '#F8F9FF',
+        background: `url("/HandHand.png") center/cover no-repeat, #F8F9FF`  // Background image added here
       }}>
+
         <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', width: '100%' }}>
           {features.map((feature, index) => (
             <div

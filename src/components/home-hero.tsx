@@ -92,7 +92,7 @@ const HomeHero: React.FC = () => (
 
       {/* Description */}
       <p style={styles.heroDescription}>
-        Unlock the full potential of your data. Streamline processes. Gain actionable insights. Elevate your business to new heights with a new suite of digital intelligence.
+        Unlock the full potential of your workflow. Streamline processes. Gain actionable insights. Elevate your business to new heights with a new suite of digital intelligence.
       </p>
 
       {/* Tagline */}
