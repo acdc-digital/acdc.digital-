@@ -17,7 +17,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     maxWidth: '80%',
     width: '100%',
     borderRadius: '0.5rem',
-    background: '#999A9E',
+    background: 'linear-gradient(to right, #4a5568, #1a202c, #2d3748)',
     position: 'relative',
     marginTop: '1.5rem',
     marginLeft: '6.5rem',
@@ -45,7 +45,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     right: '4rem',
     fontSize: '36px',
     fontFamily: 'Marker Felt, cursive',
-    color: '#3E28DE',
+    color: 'white',
   },
   slashedPriceLine: {
     position: 'absolute',

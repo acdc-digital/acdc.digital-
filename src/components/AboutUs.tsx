@@ -13,7 +13,7 @@ const AboutUs: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',  // Aligned items to the left
-        backgroundColor: '#999A9E',
+        background: 'linear-gradient(to right, #4a5568, #1a202c, #2d3748)',
         padding: '2rem',
         marginLeft: '8rem',
         marginRight: '10rem',
