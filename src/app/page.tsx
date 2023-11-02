@@ -9,6 +9,7 @@ import CallToAction from '@/components/CallToAction';
 import Accordion from '@/components/accordian';
 import FiveStepProcess from "@/components/FiveStepProcess";
 import FeatureHighlight from "@/components/FeatureHighlight";
+// import HowItWorks from "@/components/HowItWorks";
 import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 
@@ -26,6 +27,7 @@ export default async function Home() {
           <Accordion />
           <FiveStepProcess /> 
           <FeatureHighlight /> 
+          { /* <HowItWorks /> */ }  
           <AboutUs /> 
           <Footer /> 
         </div>

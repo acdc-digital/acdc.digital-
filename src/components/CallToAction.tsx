@@ -17,7 +17,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     maxWidth: '80%',
     width: '100%',
     borderRadius: '0.5rem',
-    background: 'linear-gradient(to right, #4a5568, #1a202c, #2d3748)',
+    background: '#323232',
     position: 'relative',
     marginTop: '1.5rem',
     marginLeft: '6.5rem',
@@ -31,6 +31,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontWeight: 500,
     fontFamily: 'Arial, sans-serif',
     color: 'white',
+    paddingLeft: '1rem',
+
   },
   ctaContentH3: {
     fontSize: '26px',
@@ -38,6 +40,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontWeight: 800,
     fontFamily: 'Arial, sans-serif',
     color: 'white',
+    paddingLeft: '1rem',
   },
   slashedPrice: {
     position: 'absolute',
@@ -63,6 +66,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontSize: '16px',
     color: 'white',
     fontFamily: 'Arial, sans-serif',
+    paddingLeft: '1rem',
   },
   underlinedPrice: {
     fontSize: '24px',

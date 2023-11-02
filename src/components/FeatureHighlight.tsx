@@ -57,7 +57,7 @@ const FeatureHighlight: React.FC = () => {
         boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
         borderRadius: '0.6rem',
         margin: '0 8rem',
-        background: `url("/HandHand.png") center/cover no-repeat, #F8F9FF`  // Background image added here
+        background: `#323232`  
       }}>
 
         <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', width: '100%' }}>

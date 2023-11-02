@@ -80,7 +80,7 @@ const FiveStepProcess: React.FC = () => {
                   <br></br> 3. If approved, we&apos;ll begin building your application as defined in your report.<br></br> 4. Next, we&apos;ll have a technician install our models on your computers for you, so that you can get started using the new technology without the learning curve.<br></br> 5. Your updates are free for life, and we&apos;ll provide quarterly diagnostics to ensure everything is working as expected. 
               </div>
               <div style={{
-                  background: 'linear-gradient(to right, #4a5568, #1a202c, #2d3748)',
+                  background: '#323232',
                   padding: '2rem',
                   borderRadius: '0.6rem',
                   margin: '0 8rem',
